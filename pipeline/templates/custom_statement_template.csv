@@ -1,0 +1,39 @@
+item,2020,2021,2022,2023,2024,2025
+revenue - Revenue,1000,1080,1150,1210,1300,1420
+pretax_income - Pre-tax income,160.0,169.4,177.0,182.8,194.0,210.6
+income_tax - Income tax expense,33.6,35.57,37.17,38.39,40.74,44.23
+net_income - Net income (to parent),126.4,133.83,139.83,144.41,153.26,166.37
+eps_diluted - Diluted EPS,1.26,1.34,1.4,1.44,1.53,1.66
+shares_diluted - Diluted weighted avg. shares,100,99,98,97,96,95
+cash - Cash & equivalents,150,160,170,180,190,200
+goodwill - Goodwill,200,200,200,200,200,200
+intangibles - Other intangibles,60,55,50,45,40,35
+total_assets - Total assets,1700.0,1812.0,1910.0,1994.0,2120.0,2288.0
+total_liabilities - Total liabilities,,,,,,
+equity - Shareholders' equity (parent),760.0,842.0,915.0,979.0,1070.0,1188.0
+equity_incl_nci - Total equity incl. NCI,,,,,,
+retained_earnings - Retained earnings,500.0,540.0,575.0,605.0,650.0,710.0
+shares_outstanding - Shares outstanding,99,98,97,96,95,94
+cfo - Cash from operations,170.0,183.6,195.5,205.7,221.0,241.4
+cfi - Cash from investing,-70.0,-75.6,-80.5,-84.7,-91.0,-99.4
+cff - Cash from financing,-80.0,-86.4,-92.0,-96.8,-104.0,-113.6
+dividends_paid - Dividends paid,40.0,43.2,46.0,48.4,52.0,56.8
+buybacks - Share repurchases,30.0,32.4,34.5,36.3,39.0,42.6
+sbc - Stock-based compensation,20.0,21.6,23.0,24.2,26.0,28.4
+d_and_a - Depreciation & amortization,45.0,48.6,51.75,54.45,58.5,63.9
+cost_of_revenue - Cost of revenue,580.0,626.4,667.0,701.8,754.0,823.6
+gross_profit - Gross profit,,,,,,
+rnd - R&D expense,50.0,54.0,57.5,60.5,65.0,71.0
+sga - SG&A expense,170.0,183.6,195.5,205.7,221.0,241.4
+operating_income - Operating income (EBIT),180.0,189.4,197.0,202.8,214.0,230.6
+interest_expense - Interest expense,20,20,20,20,20,20
+short_term_investments - Short-term investments,50,50,50,50,50,50
+receivables - Accounts receivable,140.0,151.2,161.0,169.4,214.0,238.8
+inventory - Inventory,120.0,129.6,138.0,145.2,156.0,170.4
+current_assets - Total current assets,510.0,546.0,577.5,604.5,645.0,699.0
+"ppe - PP&E, net",600.0,648.0,690.0,726.0,780.0,852.0
+accounts_payable - Accounts payable,90.0,97.2,103.5,108.9,117.0,127.8
+current_liabilities - Total current liabilities,300.0,324.0,345.0,363.0,390.0,426.0
+short_term_debt - Short-term debt,40,40,40,40,40,40
+long_term_debt - Long-term debt,400,390,380,370,360,350
+capex - Capital expenditure,60.0,64.8,69.0,72.6,78.0,85.2

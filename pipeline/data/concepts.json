@@ -1,0 +1,586 @@
+{
+ "templates": {
+  "standard": [
+   {
+    "key": "revenue",
+    "statement": "income",
+    "label": "Revenue"
+   },
+   {
+    "key": "pretax_income",
+    "statement": "income",
+    "label": "Pre-tax income"
+   },
+   {
+    "key": "income_tax",
+    "statement": "income",
+    "label": "Income tax expense"
+   },
+   {
+    "key": "net_income",
+    "statement": "income",
+    "label": "Net income (to parent)"
+   },
+   {
+    "key": "eps_diluted",
+    "statement": "income",
+    "label": "Diluted EPS"
+   },
+   {
+    "key": "shares_diluted",
+    "statement": "income",
+    "label": "Diluted weighted avg. shares"
+   },
+   {
+    "key": "cash",
+    "statement": "balance",
+    "label": "Cash & equivalents"
+   },
+   {
+    "key": "goodwill",
+    "statement": "balance",
+    "label": "Goodwill"
+   },
+   {
+    "key": "intangibles",
+    "statement": "balance",
+    "label": "Other intangibles"
+   },
+   {
+    "key": "total_assets",
+    "statement": "balance",
+    "label": "Total assets"
+   },
+   {
+    "key": "total_liabilities",
+    "statement": "balance",
+    "label": "Total liabilities"
+   },
+   {
+    "key": "equity",
+    "statement": "balance",
+    "label": "Shareholders' equity (parent)"
+   },
+   {
+    "key": "equity_incl_nci",
+    "statement": "balance",
+    "label": "Total equity incl. NCI"
+   },
+   {
+    "key": "retained_earnings",
+    "statement": "balance",
+    "label": "Retained earnings"
+   },
+   {
+    "key": "shares_outstanding",
+    "statement": "balance",
+    "label": "Shares outstanding"
+   },
+   {
+    "key": "cfo",
+    "statement": "cashflow",
+    "label": "Cash from operations"
+   },
+   {
+    "key": "cfi",
+    "statement": "cashflow",
+    "label": "Cash from investing"
+   },
+   {
+    "key": "cff",
+    "statement": "cashflow",
+    "label": "Cash from financing"
+   },
+   {
+    "key": "dividends_paid",
+    "statement": "cashflow",
+    "label": "Dividends paid"
+   },
+   {
+    "key": "buybacks",
+    "statement": "cashflow",
+    "label": "Share repurchases"
+   },
+   {
+    "key": "sbc",
+    "statement": "cashflow",
+    "label": "Stock-based compensation"
+   },
+   {
+    "key": "d_and_a",
+    "statement": "cashflow",
+    "label": "Depreciation & amortization"
+   },
+   {
+    "key": "cost_of_revenue",
+    "statement": "income",
+    "label": "Cost of revenue"
+   },
+   {
+    "key": "gross_profit",
+    "statement": "income",
+    "label": "Gross profit"
+   },
+   {
+    "key": "rnd",
+    "statement": "income",
+    "label": "R&D expense"
+   },
+   {
+    "key": "sga",
+    "statement": "income",
+    "label": "SG&A expense"
+   },
+   {
+    "key": "operating_income",
+    "statement": "income",
+    "label": "Operating income (EBIT)"
+   },
+   {
+    "key": "interest_expense",
+    "statement": "income",
+    "label": "Interest expense"
+   },
+   {
+    "key": "short_term_investments",
+    "statement": "balance",
+    "label": "Short-term investments"
+   },
+   {
+    "key": "receivables",
+    "statement": "balance",
+    "label": "Accounts receivable"
+   },
+   {
+    "key": "inventory",
+    "statement": "balance",
+    "label": "Inventory"
+   },
+   {
+    "key": "current_assets",
+    "statement": "balance",
+    "label": "Total current assets"
+   },
+   {
+    "key": "ppe",
+    "statement": "balance",
+    "label": "PP&E, net"
+   },
+   {
+    "key": "accounts_payable",
+    "statement": "balance",
+    "label": "Accounts payable"
+   },
+   {
+    "key": "current_liabilities",
+    "statement": "balance",
+    "label": "Total current liabilities"
+   },
+   {
+    "key": "short_term_debt",
+    "statement": "balance",
+    "label": "Short-term debt"
+   },
+   {
+    "key": "long_term_debt",
+    "statement": "balance",
+    "label": "Long-term debt"
+   },
+   {
+    "key": "capex",
+    "statement": "cashflow",
+    "label": "Capital expenditure"
+   }
+  ],
+  "bank": [
+   {
+    "key": "revenue",
+    "statement": "income",
+    "label": "Total net revenue"
+   },
+   {
+    "key": "pretax_income",
+    "statement": "income",
+    "label": "Pre-tax income"
+   },
+   {
+    "key": "income_tax",
+    "statement": "income",
+    "label": "Income tax expense"
+   },
+   {
+    "key": "net_income",
+    "statement": "income",
+    "label": "Net income (to parent)"
+   },
+   {
+    "key": "eps_diluted",
+    "statement": "income",
+    "label": "Diluted EPS"
+   },
+   {
+    "key": "shares_diluted",
+    "statement": "income",
+    "label": "Diluted weighted avg. shares"
+   },
+   {
+    "key": "cash",
+    "statement": "balance",
+    "label": "Cash & equivalents"
+   },
+   {
+    "key": "goodwill",
+    "statement": "balance",
+    "label": "Goodwill"
+   },
+   {
+    "key": "intangibles",
+    "statement": "balance",
+    "label": "Other intangibles"
+   },
+   {
+    "key": "total_assets",
+    "statement": "balance",
+    "label": "Total assets"
+   },
+   {
+    "key": "total_liabilities",
+    "statement": "balance",
+    "label": "Total liabilities"
+   },
+   {
+    "key": "equity",
+    "statement": "balance",
+    "label": "Shareholders' equity (parent)"
+   },
+   {
+    "key": "equity_incl_nci",
+    "statement": "balance",
+    "label": "Total equity incl. NCI"
+   },
+   {
+    "key": "retained_earnings",
+    "statement": "balance",
+    "label": "Retained earnings"
+   },
+   {
+    "key": "shares_outstanding",
+    "statement": "balance",
+    "label": "Shares outstanding"
+   },
+   {
+    "key": "cfo",
+    "statement": "cashflow",
+    "label": "Cash from operations"
+   },
+   {
+    "key": "cfi",
+    "statement": "cashflow",
+    "label": "Cash from investing"
+   },
+   {
+    "key": "cff",
+    "statement": "cashflow",
+    "label": "Cash from financing"
+   },
+   {
+    "key": "dividends_paid",
+    "statement": "cashflow",
+    "label": "Dividends paid"
+   },
+   {
+    "key": "buybacks",
+    "statement": "cashflow",
+    "label": "Share repurchases"
+   },
+   {
+    "key": "sbc",
+    "statement": "cashflow",
+    "label": "Stock-based compensation"
+   },
+   {
+    "key": "d_and_a",
+    "statement": "cashflow",
+    "label": "Depreciation & amortization"
+   },
+   {
+    "key": "interest_income",
+    "statement": "income",
+    "label": "Interest income"
+   },
+   {
+    "key": "interest_expense",
+    "statement": "income",
+    "label": "Interest expense"
+   },
+   {
+    "key": "net_interest_income",
+    "statement": "income",
+    "label": "Net interest income"
+   },
+   {
+    "key": "noninterest_income",
+    "statement": "income",
+    "label": "Non-interest income"
+   },
+   {
+    "key": "provision",
+    "statement": "income",
+    "label": "Provision for credit losses"
+   },
+   {
+    "key": "noninterest_expense",
+    "statement": "income",
+    "label": "Non-interest expense"
+   },
+   {
+    "key": "loans",
+    "statement": "balance",
+    "label": "Loans, net"
+   },
+   {
+    "key": "loan_allowance",
+    "statement": "balance",
+    "label": "Allowance for loan losses"
+   },
+   {
+    "key": "deposits",
+    "statement": "balance",
+    "label": "Deposits"
+   },
+   {
+    "key": "short_term_debt",
+    "statement": "balance",
+    "label": "Short-term borrowings"
+   },
+   {
+    "key": "long_term_debt",
+    "statement": "balance",
+    "label": "Long-term debt"
+   }
+  ],
+  "insurer": [
+   {
+    "key": "revenue",
+    "statement": "income",
+    "label": "Revenue"
+   },
+   {
+    "key": "pretax_income",
+    "statement": "income",
+    "label": "Pre-tax income"
+   },
+   {
+    "key": "income_tax",
+    "statement": "income",
+    "label": "Income tax expense"
+   },
+   {
+    "key": "net_income",
+    "statement": "income",
+    "label": "Net income (to parent)"
+   },
+   {
+    "key": "eps_diluted",
+    "statement": "income",
+    "label": "Diluted EPS"
+   },
+   {
+    "key": "shares_diluted",
+    "statement": "income",
+    "label": "Diluted weighted avg. shares"
+   },
+   {
+    "key": "cash",
+    "statement": "balance",
+    "label": "Cash & equivalents"
+   },
+   {
+    "key": "goodwill",
+    "statement": "balance",
+    "label": "Goodwill"
+   },
+   {
+    "key": "intangibles",
+    "statement": "balance",
+    "label": "Other intangibles"
+   },
+   {
+    "key": "total_assets",
+    "statement": "balance",
+    "label": "Total assets"
+   },
+   {
+    "key": "total_liabilities",
+    "statement": "balance",
+    "label": "Total liabilities"
+   },
+   {
+    "key": "equity",
+    "statement": "balance",
+    "label": "Shareholders' equity (parent)"
+   },
+   {
+    "key": "equity_incl_nci",
+    "statement": "balance",
+    "label": "Total equity incl. NCI"
+   },
+   {
+    "key": "retained_earnings",
+    "statement": "balance",
+    "label": "Retained earnings"
+   },
+   {
+    "key": "shares_outstanding",
+    "statement": "balance",
+    "label": "Shares outstanding"
+   },
+   {
+    "key": "cfo",
+    "statement": "cashflow",
+    "label": "Cash from operations"
+   },
+   {
+    "key": "cfi",
+    "statement": "cashflow",
+    "label": "Cash from investing"
+   },
+   {
+    "key": "cff",
+    "statement": "cashflow",
+    "label": "Cash from financing"
+   },
+   {
+    "key": "dividends_paid",
+    "statement": "cashflow",
+    "label": "Dividends paid"
+   },
+   {
+    "key": "buybacks",
+    "statement": "cashflow",
+    "label": "Share repurchases"
+   },
+   {
+    "key": "sbc",
+    "statement": "cashflow",
+    "label": "Stock-based compensation"
+   },
+   {
+    "key": "d_and_a",
+    "statement": "cashflow",
+    "label": "Depreciation & amortization"
+   },
+   {
+    "key": "cost_of_revenue",
+    "statement": "income",
+    "label": "Cost of revenue"
+   },
+   {
+    "key": "gross_profit",
+    "statement": "income",
+    "label": "Gross profit"
+   },
+   {
+    "key": "rnd",
+    "statement": "income",
+    "label": "R&D expense"
+   },
+   {
+    "key": "sga",
+    "statement": "income",
+    "label": "SG&A expense"
+   },
+   {
+    "key": "operating_income",
+    "statement": "income",
+    "label": "Operating income (EBIT)"
+   },
+   {
+    "key": "interest_expense",
+    "statement": "income",
+    "label": "Interest expense"
+   },
+   {
+    "key": "short_term_investments",
+    "statement": "balance",
+    "label": "Short-term investments"
+   },
+   {
+    "key": "receivables",
+    "statement": "balance",
+    "label": "Accounts receivable"
+   },
+   {
+    "key": "inventory",
+    "statement": "balance",
+    "label": "Inventory"
+   },
+   {
+    "key": "current_assets",
+    "statement": "balance",
+    "label": "Total current assets"
+   },
+   {
+    "key": "ppe",
+    "statement": "balance",
+    "label": "PP&E, net"
+   },
+   {
+    "key": "accounts_payable",
+    "statement": "balance",
+    "label": "Accounts payable"
+   },
+   {
+    "key": "current_liabilities",
+    "statement": "balance",
+    "label": "Total current liabilities"
+   },
+   {
+    "key": "short_term_debt",
+    "statement": "balance",
+    "label": "Short-term debt"
+   },
+   {
+    "key": "long_term_debt",
+    "statement": "balance",
+    "label": "Long-term debt"
+   },
+   {
+    "key": "capex",
+    "statement": "cashflow",
+    "label": "Capital expenditure"
+   },
+   {
+    "key": "premiums_earned",
+    "statement": "income",
+    "label": "Premiums earned"
+   },
+   {
+    "key": "claims_incurred",
+    "statement": "income",
+    "label": "Losses & benefits incurred"
+   },
+   {
+    "key": "underwriting_expense",
+    "statement": "income",
+    "label": "Underwriting expenses"
+   },
+   {
+    "key": "investments",
+    "statement": "balance",
+    "label": "Investments"
+   }
+  ]
+ },
+ "derived": {
+  "ebit": "EBIT",
+  "ebitda": "EBITDA",
+  "total_debt": "Total debt",
+  "net_debt": "Net debt",
+  "fcf": "Free cash flow (CFO - capex)",
+  "working_capital": "Working capital",
+  "invested_capital": "Invested capital (debt + equity)",
+  "tangible_equity": "Tangible equity",
+  "effective_tax_rate": "Effective tax rate"
+ }
+}

@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f6f4ee;
+  --panel: #ffffff;
+  --panel-2: #f0ede4;
+  --ink: #1b1f24;
+  --muted: #5d6670;
+  --line: #e2ddd0;
+  --accent: #0f7b5f;
+  --accent-soft: #d9f0e8;
+  --gold: #b7791f;
+  --gold-soft: #fbefd5;
+  --bad: #c0392b;
+  --bad-soft: #fbe3df;
+  --good: #1e8e3e;
+  --chart-1: #0f7b5f;
+  --chart-2: #2b6cb0;
+  --chart-3: #b7791f;
+  --chart-4: #8e44ad;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1215;
+    --panel: #171b20;
+    --panel-2: #1f252b;
+    --ink: #e8eaed;
+    --muted: #9aa4ae;
+    --line: #2a3138;
+    --accent: #3ccf9f;
+    --accent-soft: #123a2f;
+    --gold: #f0b54a;
+    --gold-soft: #3a2c12;
+    --bad: #ff7b6b;
+    --bad-soft: #3d1c18;
+    --good: #5bd17a;
+    --chart-1: #3ccf9f;
+    --chart-2: #6aa9ff;
+    --chart-3: #f0b54a;
+    --chart-4: #c792ea;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-panel: var(--panel);
+  --color-panel-2: var(--panel-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-good: var(--good);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+}
+
+html {
+  background: var(--bg);
+  color: var(--ink);
+}
+body {
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: 10px;
+  padding: 0.55rem 0.95rem;
+  font-weight: 600;
+  font-size: 0.92rem;
+  transition: transform 0.08s ease, background 0.15s ease;
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  .btn-primary {
+    color: #06231a;
+  }
+}
+.btn-ghost {
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+.btn-ghost:hover {
+  background: var(--panel-2);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 999px;
+  padding: 0.12rem 0.55rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: var(--panel-2);
+  color: var(--muted);
+}
+
+}
+
+@keyframes pop {
+  0% { transform: translateY(8px) scale(0.96); opacity: 0; }
+  100% { transform: translateY(0) scale(1); opacity: 1; }
+}
+.pop {
+  animation: pop 0.22s ease-out;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+.shake {
+  animation: shake 0.25s ease-in-out;
+}

@@ -1,0 +1,51 @@
+ticker,name,sector,template
+AAPL,Apple Inc.,Information Technology,standard
+MSFT,Microsoft Corp.,Information Technology,standard
+NVDA,NVIDIA Corp.,Information Technology,standard
+AVGO,Broadcom Inc.,Information Technology,standard
+ORCL,Oracle Corp.,Information Technology,standard
+CRM,Salesforce Inc.,Information Technology,standard
+AMD,Advanced Micro Devices,Information Technology,standard
+CSCO,Cisco Systems,Information Technology,standard
+IBM,International Business Machines,Information Technology,standard
+PLTR,Palantir Technologies,Information Technology,standard
+INTU,Intuit Inc.,Information Technology,standard
+NOW,ServiceNow Inc.,Information Technology,standard
+GOOGL,Alphabet Inc.,Communication Services,standard
+META,Meta Platforms,Communication Services,standard
+NFLX,Netflix Inc.,Communication Services,standard
+TMUS,T-Mobile US,Communication Services,standard
+DIS,Walt Disney Co.,Communication Services,standard
+T,AT&T Inc.,Communication Services,standard
+AMZN,Amazon.com Inc.,Consumer Discretionary,standard
+TSLA,Tesla Inc.,Consumer Discretionary,standard
+HD,Home Depot,Consumer Discretionary,standard
+MCD,McDonald's Corp.,Consumer Discretionary,standard
+WMT,Walmart Inc.,Consumer Staples,standard
+COST,Costco Wholesale,Consumer Staples,standard
+PG,Procter & Gamble,Consumer Staples,standard
+KO,Coca-Cola Co.,Consumer Staples,standard
+PEP,PepsiCo Inc.,Consumer Staples,standard
+PM,Philip Morris International,Consumer Staples,standard
+LLY,Eli Lilly and Co.,Health Care,standard
+UNH,UnitedHealth Group,Health Care,standard
+JNJ,Johnson & Johnson,Health Care,standard
+ABBV,AbbVie Inc.,Health Care,standard
+MRK,Merck & Co.,Health Care,standard
+ABT,Abbott Laboratories,Health Care,standard
+ISRG,Intuitive Surgical,Health Care,standard
+BRK-B,Berkshire Hathaway,Financials,insurer
+JPM,JPMorgan Chase,Financials,bank
+V,Visa Inc.,Financials,standard
+MA,Mastercard Inc.,Financials,standard
+BAC,Bank of America,Financials,bank
+WFC,Wells Fargo,Financials,bank
+MS,Morgan Stanley,Financials,bank
+GS,Goldman Sachs,Financials,bank
+AXP,American Express,Financials,bank
+XOM,Exxon Mobil,Energy,standard
+CVX,Chevron Corp.,Energy,standard
+GE,GE Aerospace,Industrials,standard
+CAT,Caterpillar Inc.,Industrials,standard
+UBER,Uber Technologies,Industrials,standard
+LIN,Linde plc,Materials,standard

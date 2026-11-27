@@ -1,0 +1,124 @@
+{
+ "companies": [
+  {
+   "ticker": "NIMBUS",
+   "name": "Nimbus Cloud Software",
+   "sector": "Information Technology",
+   "template": "standard",
+   "peer_group": "Information Technology",
+   "practice": true,
+   "blurb": "Subscription software. Very high gross margin, heavy R&D and stock pay, almost no inventory.",
+   "fiscal_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "latest": {
+    "revenue": 10250772480.0,
+    "net_income": 2562696364.0,
+    "total_assets": 19289669858.0,
+    "roe": 0.216758,
+    "net_margin": 0.25
+   },
+   "coverage": 0.974
+  },
+  {
+   "ticker": "BIGBOX",
+   "name": "BigBox Grocers",
+   "sector": "Consumer Staples",
+   "template": "standard",
+   "peer_group": "Consumer Staples",
+   "practice": true,
+   "blurb": "Warehouse-style grocer. Razor-thin margins, huge sales per dollar of assets, and suppliers fund the inventory.",
+   "fiscal_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "latest": {
+    "revenue": 163559579400.0,
+    "net_income": 4004459532.0,
+    "total_assets": 74553640072.0,
+    "roe": 0.143164,
+    "net_margin": 0.024483
+   },
+   "coverage": 0.974
+  },
+  {
+   "ticker": "IRONWK",
+   "name": "Ironworks Machinery",
+   "sector": "Industrials",
+   "template": "standard",
+   "peer_group": "Industrials",
+   "practice": true,
+   "blurb": "Heavy-equipment maker that bought a rival in 2023 with debt. Reported profit keeps rising, but look at the cash.",
+   "fiscal_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "latest": {
+    "revenue": 24300280368.0,
+    "net_income": 2446897177.0,
+    "total_assets": 35569932352.0,
+    "roe": 0.176172,
+    "net_margin": 0.100694
+   },
+   "coverage": 0.974
+  },
+  {
+   "ticker": "HARBOR",
+   "name": "Harbor National Bank",
+   "sector": "Financials",
+   "template": "bank",
+   "peer_group": "Banks & Brokers",
+   "practice": true,
+   "blurb": "Regional bank funded by customer deposits. Earns a spread between loan yields and deposit costs.",
+   "fiscal_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "latest": {
+    "revenue": 12079719943.0,
+    "net_income": 3231804712.0,
+    "total_assets": 307059480000.0,
+    "roe": 0.109141,
+    "net_margin": 0.26754
+   },
+   "coverage": 0.97
+  },
+  {
+   "ticker": "SUNRAY",
+   "name": "SunRay Power & Light",
+   "sector": "Utilities",
+   "template": "standard",
+   "peer_group": "Utilities",
+   "practice": true,
+   "blurb": "Regulated electric utility. Slow, steady growth, enormous fixed assets and lots of debt.",
+   "fiscal_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "latest": {
+    "revenue": 18072643680.0,
+    "net_income": 3199453380.0,
+    "total_assets": 97601567279.0,
+    "roe": 0.116154,
+    "net_margin": 0.177033
+   },
+   "coverage": 0.974
+  }
+ ]
+}
